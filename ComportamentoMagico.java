@@ -1,5 +1,9 @@
 package packege.business;
 
-public class ComportamentoMagico {
-
+public interface ComportamentoMagico {
+	
+	public void invisibilidade();
+	
+	public void ultraRapidez();
+	
 }
