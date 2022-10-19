@@ -1,4 +1,4 @@
-package packege.apresentetion;
+package packege.apresentation;
 
 import java.util.ArrayList;
 
@@ -6,6 +6,7 @@ import packege.business.Cavaleiro;
 import packege.business.Dragao;
 import packege.business.Mago;
 import packege.business.Personagem;
+import packege.business.Jogo;
 
 
 public class Principal {
@@ -31,8 +32,32 @@ public class Principal {
 		Mago Gargamel = new Mago("Gargamel");
 		personagens.add(Gargamel);
 		
-		Mago Piririm = new Mago("Piririm Pimpim");
-		personagens.add(Piririm);
+		Mago Veigar = new Mago("Veigar");
+		personagens.add(Veigar);
+		
+		Jogo objeto = new Jogo();
+		
+		System.out.println("░M░E░D░I░E░V░A░L░ ░G░A░M░E░");
+		
+		System.out.println();
+		System.out.print(" ☰ ☰ ☰ KNIGHTS ☰ ☰ ☰ ");
+		objeto.ControlarAcoesDosPersonagens(Edward);
+		objeto.ControlarAcoesDosPersonagens(Gilbert);
+		
+		
+		System.out.println();
+		System.out.print("\n ☰ ☰ ☰ WIZARDS ☰ ☰ ☰ ");
+		objeto.ControlarAcoesDosPersonagens(Gargamel);
+		objeto.ControlarAcoesDosPersonagens(Veigar);
+		
+		System.out.println();
+		System.out.print("\n ☰ ☰ ☰ DRAGONS ☰ ☰ ☰ ");
+		objeto.ControlarAcoesDosPersonagens(Lili);
+		objeto.ControlarAcoesDosPersonagens(Dracarys);
+		
+		
+		
+		
 		
 
 		
