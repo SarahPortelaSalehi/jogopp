@@ -3,7 +3,7 @@ package packge.busyness;
 
 public class Jogo {
 	
-	public void ControlarAcoesDosPersonagens(Personagem personagem) {
+	public static void ControlarAcoesDosPersonagens(Personagem personagem) {
 		
 		if (personagem instanceof Cavaleiro) {
 			Cavaleiro cavaleiro = (Cavaleiro)personagem;
