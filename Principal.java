@@ -37,6 +37,10 @@ public class Principal {
 		
 		Jogo objeto = new Jogo();
 		
+		Personagem p = new Mago("Gandalf");
+		((Mago)p).invisibilidade();
+		
+		
 		System.out.println("░M░E░D░I░E░V░A░L░ ░G░A░M░E░");
 		
 		System.out.println();
